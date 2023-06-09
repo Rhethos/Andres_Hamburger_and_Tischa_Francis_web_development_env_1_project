@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	padding: 80px 0;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.button{
+	padding: 15px 40px;
+	color: white;
+	border: 3px solid white;
+	border-radius: 2px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.1em;
+	transition: .5s;
+}
+
+.button:hover{
+	background: tomato;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header & Navigation bar */
+
+.header{
+	position: fixed;
+	width: 100%;
+	transition: 0.15s;
+	z-index: 1;
+}
+
+.header-flex{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	align-items: center;
+}
+
+.header .container{
+	max-width: 100%;
+	width: 98%;
+}
+
+.logo{
+	font-size: 1.4em;
+}
+
+.nav-list{
+	list-style: none;
+	display: flex;
+	gap: 30px;
+	margin-right: 60px;
+}
+
+.nav-list a, li{
+	color: black;
+	font-size: 1em;
+	text-decoration: none;
+	transition: 0.15s;
+}
+
+.about-flex{
+	display: flex;
+	align-items: center;
+	gap: 80px;
+}
+
+.left{
+	width: 60%;
+	background-image: url("../img/tischa.jpg");
+	height: 500px;
+	width: 450px;
+	background-size: cover;
+	background-position: center;
+}
+
+.right{
+	width: 40%;
+}
+
+.right h2{
+	font-size: 0.7em;
+	color: lightgray;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.right h3{
+	font-size: 2em;
+	margin-bottom: 35px;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+.right p{
+	font-size: 1em;
+	line-height: 1.9;
+	color: grey;
+}
+
+#m{
+	margin-bottom: 10px;
+}

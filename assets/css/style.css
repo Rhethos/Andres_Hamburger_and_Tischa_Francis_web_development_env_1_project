@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	padding: 80px 0;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.button{
+	padding: 15px 40px;
+	color: white;
+	border: 3px solid white;
+	border-radius: 2px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.1em;
+	transition: .5s;
+}
+
+.button:hover{
+	background: tomato;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header & Navigation bar */
+
+.header{
+	position: fixed;
+	width: 100%;
+	transition: 0.15s;
+	z-index: 1;
+}
+
+.header-background{
+		background-color: rgba(0, 0, 0, 75%);
+}
+
+.header-flex{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	align-items: center;
+}
+
+.header .container{
+	max-width: 100%;
+	width: 98%;
+}
+
+.header a:hover{
+	color: tomato;
+}
+
+.nav-list{
+	list-style: none;
+	display: flex;
+	gap: 30px;
+	margin-right: 60px;
+}
+
+.nav-list a, li{
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	transition: 0.15s;
+}
+
+.bigbanner{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	background-image: url("../img/banner.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.banner-flex h1{
+	font-size: 5em;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+	font-family: 'Indie Flower', cursive;
+}
+
+.about-flex{
+	display: flex;
+	align-items: center;
+	gap: 80px;
+}
+
+.left{
+	width: 60%;
+	background-image: url("../img/chef.jpg");
+	height: 500px;
+	width: 450px;
+	background-size: cover;
+	background-position: center;
+}
+
+.right{
+	width: 40%;
+}
+
+.right h2{
+	font-size: 0.7em;
+	color: lightgray;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.right h3{
+	font-size: 2em;
+	margin-bottom: 35px;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+.right p{
+	font-size: 1em;
+	line-height: 1.9;
+	color: grey;
+}
+
+#m{
+	margin-bottom: 10px;
+}
+
+.cta{
+	padding: 120px 0;
+	background-image: url("../img/cta.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+.cta h2{
+	text-transform: capitalize;
+	font-size: 2.2em;
+	margin-bottom: 20px;
+}
+
+.cta p{
+	font-size: 2em;
+}
